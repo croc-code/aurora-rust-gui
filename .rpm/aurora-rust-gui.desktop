@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=aurora-rust-gui
+Exec=aurora-rust-gui
+Name=Rust GUI

@@ -1,0 +1,3 @@
+[target.armv7-unknown-linux-gnueabihf]
+rustflags = ["-C", "link-args=-L lib lib/crt1.o -rpath lib --dynamic-linker /lib/ld-linux-armhf.so.3 -export-dynamic"]
+linker = "bin/armv7hl-meego-linux-gnueabi-ld"

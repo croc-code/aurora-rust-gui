@@ -1,0 +1,14 @@
+#ifndef QT_QMFMESSAGESERVER_MODULE_H
+#define QT_QMFMESSAGESERVER_MODULE_H
+#include <QmfMessageServer/QmfMessageServerDepends>
+#include "qmailauthenticator.h"
+#include "qmailheartbeattimer.h"
+#include "qmailmessagebuffer.h"
+#include "qmailmessageclassifier.h"
+#include "qmailmessageserverplugin.h"
+#include "qmailmessageservice.h"
+#include "qmailserviceconfiguration.h"
+#include "qmailstoreaccountfilter.h"
+#include "qmailtransport.h"
+#include "qmfmessageserverversion.h"
+#endif

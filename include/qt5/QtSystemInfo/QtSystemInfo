@@ -1,0 +1,11 @@
+#ifndef QT_QTSYSTEMINFO_MODULE_H
+#define QT_QTSYSTEMINFO_MODULE_H
+#include <QtSystemInfo/QtSystemInfoDepends>
+#include "qbatteryinfo.h"
+#include "qdeviceinfo.h"
+#include "qnetworkinfo.h"
+#include "qscreensaver.h"
+#include "qstorageinfo.h"
+#include "qsysteminfoglobal.h"
+#include "qtsysteminfoversion.h"
+#endif

@@ -1,0 +1,23 @@
+[package]
+name = "aurora-rust-gui"
+version = "0.1.0"
+authors = ["Shamil Yakupov <syakupov@croc.ru>"]
+edition = "2018"
+description = "Rust GUI example for Aurora OS"
+license = "MIT"
+build = "build.rs"
+
+[dependencies]
+cpp = "0.5.6"
+
+[build-dependencies]
+cpp_build = "0.5.6"
+
+[package.metadata.rpm]
+package = "aurora-rust-gui"
+
+[package.metadata.rpm.cargo]
+buildflags = ["--release"]
+
+[package.metadata.rpm.targets]
+aurora-rust-gui = { path = "/usr/bin/aurora-rust-gui" }
