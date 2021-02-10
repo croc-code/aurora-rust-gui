@@ -1,5 +1,7 @@
 # GUI App in Rust for Aurora OS
 
+[![Build Status](https://github.com/crocinc/aurora-rust-gui/workflows/Build/badge.svg)](https://github.com/crocinc/aurora-rust-gui/actions)
+
 This is an example of the simplest GUI application written in Rust to be run on the mobile Aurora OS.
 
 # Prerequisites

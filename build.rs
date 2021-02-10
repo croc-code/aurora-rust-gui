@@ -1,12 +1,14 @@
 fn main() {
-    let sailfish_include_path = "include/sailfishapp";
+    let include_path = "include";
     let qt_include_path = "include/qt5";
+    let sailfish_include_path = "include/sailfishapp";
     let library_path = "lib";
 
     let mut config = cpp_build::Config::new();
     config
-        .include(sailfish_include_path)
+    	.include(include_path)
         .include(qt_include_path)
+        .include(sailfish_include_path)
         .opt_level(2)
         .flag("-std=gnu++1y")
         .flag("-mfloat-abi=hard")
