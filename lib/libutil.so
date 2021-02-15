@@ -1,0 +1,3 @@
+/* GNU ld script
+   Dummy script to avoid dependency on libutil.so */
+ASSERT(1, "Unreachable")
